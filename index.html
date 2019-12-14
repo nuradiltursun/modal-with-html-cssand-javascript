@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Modal with html,css,modal</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <button data-target="#showaddmodal" data-toggle="modal">show add modal</button>
+        <button data-target="#showdeletemodal" data-toggle="modal">show delete modal</button>
+
+        <div class="modal" id="showaddmodal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Add Modal title</h5>
+                        <button class="close"  data-dismiss='modal'>&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo facere placeat dolorem amet, voluptate consectetur corrupti. Commodi quae voluptate temporibus soluta, illum quasi ullam architecto quisquam nobis repellendus tempore.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button>ok</button>
+                        <button class="close" data-dismiss='modal' >close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="showdeletemodal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Delete Modal title</h5>
+                            <button class="close"  data-dismiss='modal'>&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo facere placeat dolorem amet, voluptate consectetur corrupti. Commodi quae voluptate temporibus soluta, illum quasi ullam architecto quisquam nobis repellendus tempore.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button>ok</button>
+                            <button class="close" data-dismiss='modal' >close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+    </div>
+
+    <script src="./main.js"></script>
+    
+</body>
+</html>
